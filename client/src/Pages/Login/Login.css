@@ -1,0 +1,60 @@
+.Login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://wallpapercave.com/wp/wp4507688.jpg");
+  align-items: center;
+  background: cover;
+}
+
+.LoginTitle {
+  font-size: 50px;
+}
+.LoginForm {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.LoginForm > label {
+  margin: 10px 0;
+}
+.LoginInputs {
+  padding: 20px;
+  background-color: white;
+  font-size: 12px;
+  border: none;
+}
+
+.LoginBtn {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+.LoginBtn:disabled
+{
+  cursor: not-allowed;
+  background-color: rgb(252, 173, 173);
+}
+
+
+.register {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
